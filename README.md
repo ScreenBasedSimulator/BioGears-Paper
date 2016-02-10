@@ -6,6 +6,7 @@ It's a place to store papers and materials about the paper for biogears
 - Analysis of the Total Surgical Cardiac Denervation by Computer Simulation
   - Link: [papers/analysis-of-the-total-surgical-cardiac-denervation-by-computer-simulation.pdf](papers/analysis-of-the-total-surgical-cardiac-denervation-by-computer-simulation.pdf)
   - Comment:
+    - Xiao Han: It is a paper about simulating urinary system, we don't know how to simulate renal nerve sympathetic activity, like which drug triggers that activity.
 - Circulation: Overall Regulation
   - Link: [papers/circulation-overall-regulation.pdf](papers/circulation-overall-regulation.pdf)
   - Comment:
@@ -30,6 +31,7 @@ It's a place to store papers and materials about the paper for biogears
 - Simulation and Prediction of Cardiotherapeutical Phenomena From a Pulsatile Model Coupled to the Guyton Circulatiory Model.
   - Link:[papers/simulation-and-prediction-of-cardiotherapeutical-phenomena-from-a-pulsatile-model-coupled-to-the-guyton-circulatiory-model.pdf](papers/simulation-and-prediction-of-cardiotherapeutical-phenomena-from-a-pulsatile-model-coupled-to-the-guyton-circulatiory-model.pdf)
   - Comment:
+    - Xiao Han: It's a paper simulating blood pressure in the hearts using Guyton Model, but most charts in the paper use the time unit of ms, which is beyond the precision of BioGears (I think).
 - Simulators for use in Anaesthesia
   - Link:[papers/simulators-for-use-in-anaesthesia.pdf](papers/simulators-for-use-in-anaesthesia.pdf)
   - Comment:
