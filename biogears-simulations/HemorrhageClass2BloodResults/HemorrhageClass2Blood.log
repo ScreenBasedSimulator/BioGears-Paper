@@ -1,0 +1,47 @@
+2016-02-01 15:10:40,924 [INFO]  : [0(s)] Computed Patient Maximum Heart rate is 177.2(1/min)
+2016-02-01 15:10:40,987 [INFO]  : [0(s)] Converging to a steady state
+2016-02-01 15:10:46,730 [INFO]  : [10.0111(s)] Converging System... it took 5.74s to simulate the past 10s
+2016-02-01 15:10:52,614 [INFO]  : [20.0222(s)] Converging System... it took 5.88s to simulate the past 10s
+2016-02-01 15:10:58,837 [INFO]  : [30.0333(s)] Converging System... it took 6.22s to simulate the past 10s
+2016-02-01 15:11:04,447 [INFO]  : [40.0444(s)] Converging System... it took 5.61s to simulate the past 10s
+2016-02-01 15:11:10,363 [INFO]  : [50.0556(s)] Converging System... it took 5.92s to simulate the past 10s
+2016-02-01 15:11:16,060 [INFO]  : [60.0667(s)] Converging System... it took 5.7s to simulate the past 10s
+2016-02-01 15:11:21,188 [INFO]  : [70.0778(s)] Converging System... it took 5.13s to simulate the past 10s
+2016-02-01 15:11:26,483 [INFO]  : [80.0889(s)] Converging System... it took 5.29s to simulate the past 10s
+2016-02-01 15:11:31,655 [INFO]  : [90.1(s)] Converging System... it took 5.17s to simulate the past 10s
+2016-02-01 15:11:37,226 [INFO]  : [100.111(s)] Converging System... it took 5.57s to simulate the past 10s
+2016-02-01 15:11:43,139 [INFO]  : [110.122(s)] Converging System... it took 5.91s to simulate the past 10s
+2016-02-01 15:11:48,995 [INFO]  : [120.133(s)] Converging System... it took 5.86s to simulate the past 10s
+2016-02-01 15:11:54,437 [INFO]  : [130.144(s)] Converging System... it took 5.44s to simulate the past 10s
+2016-02-01 15:11:59,772 [INFO]  : [140.156(s)] Converging System... it took 5.33s to simulate the past 10s
+2016-02-01 15:12:04,907 [INFO]  : [150.167(s)] Converging System... it took 5.13s to simulate the past 10s
+2016-02-01 15:12:10,431 [INFO]  : [160.178(s)] Converging System... it took 5.52s to simulate the past 10s
+2016-02-01 15:12:16,312 [INFO]  : [170.189(s)] Converging System... it took 5.88s to simulate the past 10s
+2016-02-01 15:12:21,860 [INFO]  : [180.2(s)] Converging System... it took 5.55s to simulate the past 10s
+2016-02-01 15:12:23,051 [INFO]  : [182.278(s)] Convergence took 102s to simulate 182s to get engine to a steady state
+2016-02-01 15:12:23,051 [INFO]  : [182.278(s)] Converging feedback to a steady state
+2016-02-01 15:12:28,472 [INFO]  : [192.289(s)] Converging System... it took 5.42s to simulate the past 10s
+2016-02-01 15:12:33,603 [INFO]  : [202.3(s)] Converging System... it took 5.13s to simulate the past 10s
+2016-02-01 15:12:33,604 [INFO]  : [202.3(s)] Convergence took 10.6s to simulate 202s to get engine to a steady state
+2016-02-01 15:12:33,604 [INFO]  : [0(s)] Executing Scenario
+2016-02-01 15:12:50,152 [INFO]  : [30.0111(s)] [Action] 30.0111(s), Patient Action : Hemorrhage
+	Rate: 250(mL/min)
+	For Compartment: RightLeg
+2016-02-01 15:13:06,316 [INFO]  : [60(s)] Current Time is 59.9889s, it took 32.71s to simulate the past 60s
+2016-02-01 15:13:41,376 [INFO]  : [120(s)] Current Time is 119.989s, it took 35.059s to simulate the past 60s
+2016-02-01 15:14:18,670 [INFO]  : [180(s)] Current Time is 179.989s, it took 37.292s to simulate the past 60s
+2016-02-01 15:14:56,336 [INFO]  : [240(s)] Current Time is 239.989s, it took 37.664s to simulate the past 60s
+2016-02-01 15:15:14,898 [INFO]  : [270.022(s)] [Action] 270.022(s), Patient Action : Hemorrhage
+	Rate: 0(mL/min)
+	For Compartment: RightLeg
+2016-02-01 15:15:32,673 [INFO]  : [300(s)] Current Time is 299.989s, it took 36.335s to simulate the past 60s
+2016-02-01 15:16:10,169 [INFO]  : [360(s)] Current Time is 359.989s, it took 37.495s to simulate the past 60s
+2016-02-01 15:16:47,129 [INFO]  : [420(s)] Current Time is 419.989s, it took 36.958s to simulate the past 60s
+2016-02-01 15:17:22,617 [INFO]  : [480(s)] Current Time is 479.989s, it took 35.486s to simulate the past 60s
+2016-02-01 15:18:03,630 [INFO]  : [540(s)] Current Time is 539.989s, it took 41.011s to simulate the past 60s
+2016-02-01 15:18:39,817 [INFO]  : [600(s)] Current Time is 599.989s, it took 36.185s to simulate the past 60s
+2016-02-01 15:19:15,168 [INFO]  : [660(s)] Current Time is 659.989s, it took 35.349s to simulate the past 60s
+2016-02-01 15:19:50,154 [INFO]  : [720(s)] Current Time is 719.989s, it took 34.984s to simulate the past 60s
+2016-02-01 15:20:24,826 [INFO]  : [780(s)] Current Time is 779.989s, it took 34.67s to simulate the past 60s
+2016-02-01 15:20:59,284 [INFO]  : [840(s)] Current Time is 839.989s, it took 34.457s to simulate the past 60s
+2016-02-01 15:21:16,313 [INFO]  : [870.033(s)] It took 522.691s to run this simulation

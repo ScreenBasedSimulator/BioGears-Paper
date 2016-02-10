@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenario xmlns="uri:/mil/tatrc/physiology/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Name>AnesthesiaMachineVariedConfiguration</Name>
+	<Description>Vary the Anaesthesia Machine settings.</Description>
+	<PatientFile>Standard.xml</PatientFile>
+
+	<!-- Base system data required for all scenario verification -->
+    <DataRequest xsi:type="PatientDataRequestData"          Name="Weight"                            Unit="g"/>
+    <DataRequest xsi:type="PhysiologySystemDataRequestData" Name="HeartRate"                         Unit="1/min"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="HeartStrokeVolume"                 Unit="mL"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="BloodVolume"                       Unit="mL"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="ExtravascularFluidVolume"          Unit="mL"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="ArterialPressure"                  Unit="mmHg"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="MeanArterialPressure"              Unit="mmHg"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="SystolicArterialPressure"          Unit="mmHg"/>
+    <DataRequest xsi:type="PhysiologySystemDataRequestData" Name="DiastolicArterialPressure"         Unit="mmHg"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="CardiacOutput"                     Unit="mL/min"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="HemoglobinContent"                 Unit="g"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="CentralVenousPressure"             Unit="mmHg"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="PulmonaryCapillariesWedgePressure" Unit="mmHg"/>
+    <DataRequest xsi:type="PhysiologySystemDataRequestData" Name="RespirationRate"                   Unit="1/min"/>
+    <DataRequest xsi:type="PhysiologySystemDataRequestData" Name="OxygenSaturation"                  Unit="unitless"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="CarbonDioxideSaturation"           Unit="unitless"/>
+    <DataRequest xsi:type="PhysiologySystemDataRequestData" Name="TidalVolume"                       Unit="mL"/>
+    <DataRequest xsi:type="PhysiologySystemDataRequestData" Name="TotalLungVolume"                   Unit="mL"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="EndTidalCarbonDioxideFraction"     Unit="unitless"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="TotalAlveolarVentilation"          Unit="L/min"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="TranspulmonaryPressure"            Unit="cmH2O"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="RespiratoryQuotient"               Unit="unitless"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="CoreTemperature"                   Unit="degC"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="SkinTemperature"                   Unit="degC"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="GlomerularFiltrationRate"          Unit="mL/day"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="RenalBloodFlow"                    Unit="mL/min"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="UrineProductionRate"               Unit="mL/min"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="LeftAfferentArterioleResistance"   Unit="mmHg min/mL"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="RightAfferentArterioleResistance"  Unit="mmHg min/mL"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="OxygenConsumptionRate"             Unit="mL/min"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="CarbonDioxideProductionRate"       Unit="mL/min"/>
+
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="Aorta"        Type="Vascular"  Substance="Oxygen"        Name="PartialPressure" Unit="mmHg"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="Aorta"        Type="Vascular"  Substance="CarbonDioxide" Name="PartialPressure" Unit="mmHg"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="VenaCava"     Type="Vascular"  Substance="Oxygen"        Name="PartialPressure" Unit="mmHg"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="VenaCava"     Type="Vascular"  Substance="CarbonDioxide" Name="PartialPressure" Unit="mmHg"/>
+
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="LeftAlveoli"  Type="Pulmonary"                           Name="Pressure"        Unit="cmH2O"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="LeftAlveoli"  Type="Pulmonary" Substance="Oxygen"        Name="PartialPressure" Unit="mmHg"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="LeftAlveoli"  Type="Pulmonary" Substance="CarbonDioxide" Name="PartialPressure" Unit="mmHg"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="RightAlveoli" Type="Pulmonary"                           Name="Pressure"        Unit="cmH2O"/>
+ 	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="RightAlveoli" Type="Pulmonary" Substance="Oxygen"        Name="PartialPressure" Unit="mmHg"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="RightAlveoli" Type="Pulmonary" Substance="CarbonDioxide" Name="PartialPressure" Unit="mmHg"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="Trachea"      Type="Pulmonary" Substance="Oxygen"        Name="PartialPressure" Unit="cmH2O"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="Trachea"      Type="Pulmonary" Substance="CarbonDioxide" Name="PartialPressure" Unit="cmH2O"/>
+
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="RightTubules" Type="Urine"     Substance="Sodium"        Name="Concentration" Unit="mg/mL"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="RightTubules" Type="Urine"     Substance="Albumin"       Name="Concentration" Unit="mg/mL"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="LeftTubules"  Type="Urine"     Substance="Sodium"        Name="Concentration" Unit="mg/mL"/>
+	<DataRequest xsi:type="AnatomyCompartmentDataRequestData" Compartment="LeftTubules"  Type="Urine"     Substance="Albumin"       Name="Concentration" Unit="mg/mL"/>
+
+	<DataRequest xsi:type="SubstanceDataRequestData"  Substance="Oxygen"         Name="AlveolarTransfer" Unit="mL/s"/>
+	<DataRequest xsi:type="SubstanceDataRequestData"  Substance="CarbonDioxide"  Name="AlveolarTransfer" Unit="mL/s"/>
+
+	<!-- Anything action specific data needed for verification of this scenario -->
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="NeuromuscularBlockLevel"/>
+	<DataRequest xsi:type="PhysiologySystemDataRequestData" Name="SedationLevel"/>
+
+	<DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="Connection"      Name="InFlow"   Unit="L/min"/>
+	<DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="Ventilator"      Name="Volume"   Unit="mL"/>
+	<DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="ReliefValve"     Name="InFlow"   Unit="L/min"/>
+	<DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="Selector"        Name="Pressure" Unit="cmH2O"/>
+	<DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="Ventilator"      Name="Pressure" Unit="cmH2O"/>
+	<DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="ExpiratoryLimb"  Name="InFlow"   Unit="L/min"/>
+    <DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="InspiratoryLimb" Name="InFlow"   Unit="L/min"/>
+	<DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="GasInlet"        Name="VolumeFraction" Substance="Oxygen"/>
+	<DataRequest xsi:type="AnesthesiaMachineCompartmentDataRequestData" Compartment="GasInlet"        Name="VolumeFraction" Substance="CarbonDioxide"/>
+
+	<Action xsi:type="AdvanceTimeData">
+		<Time value="30" unit="s"/>
+	</Action>
+	<Action xsi:type="AirwayObstructionData">
+			<Severity value="1.0"/>
+	</Action>
+	<Action xsi:type="AdvanceTimeData">
+		<Time value="120" unit="s"/>
+	</Action>
+	<Action xsi:type="AirwayObstructionData">
+			<Severity value="0.0"/>
+	</Action>
+	<Action xsi:type="AdvanceTimeData">
+		<Time value="600" unit="s"/>
+	</Action>
+</Scenario>

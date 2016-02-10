@@ -1,0 +1,93 @@
+2016-02-01 14:02:58,260 [INFO]  : [0(s)] Computed Patient Maximum Heart rate is 177.2(1/min)
+2016-02-01 14:02:58,311 [INFO]  : [0(s)] Converging to a steady state
+2016-02-01 14:03:03,950 [INFO]  : [10.0111(s)] Converging System... it took 5.64s to simulate the past 10s
+2016-02-01 14:03:10,067 [INFO]  : [20.0222(s)] Converging System... it took 6.12s to simulate the past 10s
+2016-02-01 14:03:15,346 [INFO]  : [30.0333(s)] Converging System... it took 5.28s to simulate the past 10s
+2016-02-01 14:03:20,555 [INFO]  : [40.0444(s)] Converging System... it took 5.21s to simulate the past 10s
+2016-02-01 14:03:25,747 [INFO]  : [50.0556(s)] Converging System... it took 5.19s to simulate the past 10s
+2016-02-01 14:03:31,000 [INFO]  : [60.0667(s)] Converging System... it took 5.25s to simulate the past 10s
+2016-02-01 14:03:36,501 [INFO]  : [70.0778(s)] Converging System... it took 5.5s to simulate the past 10s
+2016-02-01 14:03:42,250 [INFO]  : [80.0889(s)] Converging System... it took 5.75s to simulate the past 10s
+2016-02-01 14:03:49,172 [INFO]  : [90.1(s)] Converging System... it took 6.92s to simulate the past 10s
+2016-02-01 14:03:55,262 [INFO]  : [100.111(s)] Converging System... it took 6.09s to simulate the past 10s
+2016-02-01 14:04:00,966 [INFO]  : [110.122(s)] Converging System... it took 5.7s to simulate the past 10s
+2016-02-01 14:04:06,609 [INFO]  : [120.133(s)] Converging System... it took 5.64s to simulate the past 10s
+2016-02-01 14:04:12,146 [INFO]  : [130.144(s)] Converging System... it took 5.54s to simulate the past 10s
+2016-02-01 14:04:17,563 [INFO]  : [140.156(s)] Converging System... it took 5.42s to simulate the past 10s
+2016-02-01 14:04:22,911 [INFO]  : [150.167(s)] Converging System... it took 5.35s to simulate the past 10s
+2016-02-01 14:04:28,268 [INFO]  : [160.178(s)] Converging System... it took 5.36s to simulate the past 10s
+2016-02-01 14:04:33,593 [INFO]  : [170.189(s)] Converging System... it took 5.32s to simulate the past 10s
+2016-02-01 14:04:38,915 [INFO]  : [180.2(s)] Converging System... it took 5.32s to simulate the past 10s
+2016-02-01 14:04:40,128 [INFO]  : [182.278(s)] Convergence took 102s to simulate 182s to get engine to a steady state
+2016-02-01 14:04:40,129 [INFO]  : [182.278(s)] Converging feedback to a steady state
+2016-02-01 14:04:45,697 [INFO]  : [192.289(s)] Converging System... it took 5.57s to simulate the past 10s
+2016-02-01 14:04:51,036 [INFO]  : [202.3(s)] Converging System... it took 5.34s to simulate the past 10s
+2016-02-01 14:04:51,036 [INFO]  : [202.3(s)] Convergence took 10.9s to simulate 202s to get engine to a steady state
+2016-02-01 14:04:51,037 [INFO]  : [0(s)] Executing Scenario
+2016-02-01 14:05:09,044 [INFO]  : [30.0111(s)] [Action] 30.0111(s), Anesthesia Machine Configuration
+	State: On
+	Inlet Flow Rate: 5(L/min)
+	InspiratoryExpiratory Ratio: 0.5
+	Oxygen Fraction: 1
+	Oxygen Source: Wall
+	Positive End Expired Pressure: NaN
+	Primary Gas: Nitrogen
+	Relief Valve Pressure: 20(cmH2O)
+	Respiratory Rate: 16(1/min)
+	Ventilator Pressure: 0(cmH2O)
+	Ventilator Mask: On
+	OxygenBottleOneVolume: 660(L)
+	OxygenBottleTwoVolume: 660(L)
+2016-02-01 14:05:09,060 [INFO]  : [30.0222(s)] [Event] 30.0222(s),  Patient has Tachypnea
+2016-02-01 14:05:18,296 [INFO]  : [46.3(s)] [Event] 46.3(s),  Patient no longer has Tachypnea
+2016-02-01 14:05:18,622 [INFO]  : [46.8667(s)] [Event] 46.8667(s),  Patient has Tachypnea
+2016-02-01 14:05:20,460 [INFO]  : [50.0556(s)] [Event] 50.0556(s),  Patient no longer has Tachypnea
+2016-02-01 14:05:20,804 [INFO]  : [50.6556(s)] [Event] 50.6556(s),  Patient has Tachypnea
+2016-02-01 14:05:22,619 [INFO]  : [53.8111(s)] [Event] 53.8111(s),  Patient no longer has Tachypnea
+2016-02-01 14:05:23,032 [INFO]  : [54.4667(s)] [Event] 54.4667(s),  Patient has Tachypnea
+2016-02-01 14:05:25,130 [INFO]  : [57.5667(s)] [Event] 57.5667(s),  Patient no longer has Tachypnea
+2016-02-01 14:05:25,657 [INFO]  : [58.3111(s)] [Event] 58.3111(s),  Patient has Tachypnea
+2016-02-01 14:05:26,707 [INFO]  : [60(s)] Current Time is 59.9889s, it took 35.669s to simulate the past 60s
+2016-02-01 14:05:45,215 [INFO]  : [90.0222(s)] [Action] 90.0222(s), Patient Action : Airway Obstruction
+	Severity: 1
+2016-02-01 14:05:53,205 [INFO]  : [103.789(s)] [Event] 103.789(s),  Patient has Bradypnea
+2016-02-01 14:05:53,206 [INFO]  : [103.789(s)] [Event] 103.789(s),  Patient no longer has Tachypnea
+2016-02-01 14:05:59,584 [INFO]  : [115.244(s)] [Event] 115.244(s),  Patient no longer has Bradypnea
+2016-02-01 14:06:02,442 [INFO]  : [120(s)] Current Time is 119.989s, it took 35.734s to simulate the past 60s
+2016-02-01 14:06:38,912 [INFO]  : [180(s)] Current Time is 179.989s, it took 36.468s to simulate the past 60s
+2016-02-01 14:06:51,381 [INFO]  : [198.933(s)] [Event] 198.933(s),  Patient has Bradypnea
+2016-02-01 14:06:53,349 [INFO]  : [202.344(s)] [Event] 202.344(s),  Patient no longer has Bradypnea
+2016-02-01 14:06:53,701 [INFO]  : [202.944(s)] [Event] 202.944(s),  Patient has Tachypnea
+2016-02-01 14:06:57,332 [INFO]  : [209.111(s)] [Event] 209.111(s),  Patient no longer has Tachypnea
+2016-02-01 14:07:11,469 [INFO]  : [232.389(s)] [Event] 232.389(s),  Patient has Tachypnea
+2016-02-01 14:07:13,868 [INFO]  : [235.678(s)] [Event] 235.678(s),  Patient no longer has Tachypnea
+2016-02-01 14:07:16,545 [INFO]  : [240(s)] Current Time is 239.989s, it took 37.631s to simulate the past 60s
+2016-02-01 14:07:24,631 [INFO]  : [252.856(s)] [Event] 252.856(s),  Patient has Tachypnea
+2016-02-01 14:07:30,188 [INFO]  : [261.656(s)] [Event] 261.656(s),  Patient no longer has Tachypnea
+2016-02-01 14:07:38,478 [INFO]  : [275.389(s)] [Event] 275.389(s),  Patient has Tachypnea
+2016-02-01 14:07:41,570 [INFO]  : [280.756(s)] [Event] 280.756(s),  Patient no longer has Tachypnea
+2016-02-01 14:07:50,657 [INFO]  : [296.444(s)] [Event] 296.444(s),  Patient has Tachypnea
+2016-02-01 14:07:52,430 [INFO]  : [299.567(s)] [Event] 299.567(s),  Patient no longer has Tachypnea
+2016-02-01 14:07:52,675 [INFO]  : [300(s)] Current Time is 299.989s, it took 36.128s to simulate the past 60s
+2016-02-01 14:08:00,063 [INFO]  : [312.944(s)] [Event] 312.944(s),  Patient has Tachypnea
+2016-02-01 14:08:03,346 [INFO]  : [318.111(s)] [Event] 318.111(s),  Patient no longer has Tachypnea
+2016-02-01 14:08:10,527 [INFO]  : [330.344(s)] [Event] 330.344(s),  Patient has Tachypnea
+2016-02-01 14:08:18,117 [INFO]  : [342.678(s)] [Event] 342.678(s),  Patient no longer has Tachypnea
+2016-02-01 14:08:21,967 [INFO]  : [348.511(s)] [Event] 348.511(s),  Patient has Tachypnea
+2016-02-01 14:08:29,125 [INFO]  : [357.689(s)] [Event] 357.689(s),  Patient no longer has Tachypnea
+2016-02-01 14:08:30,500 [INFO]  : [360(s)] Current Time is 359.989s, it took 37.823s to simulate the past 60s
+2016-02-01 14:08:30,776 [INFO]  : [360.489(s)] [Event] 360.489(s),  Patient has Tachypnea
+2016-02-01 14:08:38,346 [INFO]  : [372.556(s)] [Event] 372.556(s),  Patient no longer has Tachypnea
+2016-02-01 14:08:39,937 [INFO]  : [375.344(s)] [Event] 375.344(s),  Patient has Tachypnea
+2016-02-01 14:09:06,165 [INFO]  : [420(s)] Current Time is 419.989s, it took 35.663s to simulate the past 60s
+2016-02-01 14:09:45,801 [INFO]  : [480(s)] Current Time is 479.989s, it took 39.634s to simulate the past 60s
+2016-02-01 14:10:04,494 [INFO]  : [511.189(s)] [Event] 511.189(s),  Patient has Hypoxia
+2016-02-01 14:10:22,519 [INFO]  : [540(s)] Current Time is 539.989s, it took 36.716s to simulate the past 60s
+2016-02-01 14:10:34,912 [INFO]  : [560.556(s)] [Event] 560.556(s),  Patient has Tachycardia
+2016-02-01 14:10:55,531 [INFO]  : [591.789(s)] [Event] 591.789(s),  Patient has Hypercapnia
+2016-02-01 14:11:00,681 [INFO]  : [600(s)] Current Time is 599.989s, it took 38.16s to simulate the past 60s
+2016-02-01 14:11:39,537 [INFO]  : [660(s)] Current Time is 659.989s, it took 38.855s to simulate the past 60s
+2016-02-01 14:11:51,317 [INFO]  : [674.256(s)] [Event] 674.256(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
+2016-02-01 14:12:24,580 [INFO]  : [720(s)] Current Time is 719.989s, it took 45.041s to simulate the past 60s
+2016-02-01 14:13:04,565 [INFO]  : [780(s)] Current Time is 779.989s, it took 39.983s to simulate the past 60s
+2016-02-01 14:13:23,932 [INFO]  : [810.033(s)] It took 512.877s to run this simulation
