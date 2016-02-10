@@ -42,3 +42,21 @@ It's a place to store papers and materials about the paper for biogears
 ## Papers with no access
 
     Cumin, David, Charlotte Chen, and Alan F. Merry. "Measuring the repeatability of simulated physiology in simulators." Simulation in Healthcare 10.6 (2015): 336-344.
+
+# BioGears Simulation
+## Bradypnea Simulation (Stops Breathing)
+### Scenario 1
+Standard Patient stops breathing for 30s and recover.
+![Oxygen Saturation](biogears-simulations/AnesthesiaMachineStop30Results/OxygenSaturation_vs_Time.jpg)
+### Scenario 2
+Standard Patient stops breathing for 120s and recover.
+![Oxygen Saturation](biogears-simulations/AnesthesiaMachineStop120Results/OxygenSaturation_vs_Time.jpg)
+### Scenario 3
+Obesity Patient given 1 min of pure oxygen and then stops breathing
+![Oxygen Saturation](biogears-simulations/AnesthesiaMachineObesityResults/OxygenSaturation_vs_Time.jpg)
+
+## Hemorrhage (Bleeding)
+### Scenario 1
+Standard Patient bleed for 250ml/min for 4 mins then stops bleeding.
+![Heart Rate](biogears-simulations/HemorrhageClass2BloodResults/HeartRate_vs_Time.jpg)
+![Systolic Arterial Pressure](biogears-simulations/HemorrhageClass2BloodResults/SystolicArterialPressure_vs_Time.jpg)
