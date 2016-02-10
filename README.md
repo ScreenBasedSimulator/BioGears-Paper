@@ -15,8 +15,27 @@ It's a place to store papers and materials about the paper for biogears
 - Hypertension Caused by Salt Loading in the Dog
   - Link: [papers/hypertension-caused-by-salt-loading-in-the-dog.pdf](papers/hypertension-caused-by-salt-loading-in-the-dog.pdf)
   - Comment:
-- Hypertension Caused by Salt Loading II Fluid volume and tissue pressure changes.
+- Hypertension Caused by Salt Loading II Fluid Volume and Tissue Pressure Changes.
   - Link: [papers/hypertension-caused-by-salt-loading.pdf](papers/hypertension-caused-by-salt-loading.pdf)
+  - Comment:
+- Implementation of a Model of Bodily Fluids Regulation
+  - Link: [papers/implementing-of-a-model-of-bodily-fluids-regulation.pdf](implementing-of-a-model-of-bodily-fluids-regulation.pdf)
+  - Comment:
+- Numerical Simulation of the Hemodynamic Response to Hemodialysis-Induced Hypovolemia
+  - Link:[papers/numerial-simulation-of-the-hemodynamic-response-to-hemodialysis-induced-hypovolemia.pdf](numerial-simulation-of-the-hemodynamic-response-to-hemodialysis-induced-hypovolemia.pdf)
+  - Comment:
+- Physiologic Control of Arterial Pressure
+  - Link:[papers/physiologic-control-of-arterial-pressure.pdf](physiologic-control-of-arterial-pressure.pdf)
+  - Comment:
+- Simulation and Prediction of Cardiotherapeutical Phenomena From a Pulsatile Model Coupled to the Guyton Circulatiory Model.
+  - Link:[papers/simulation-and-prediction-of-cardiotherapeutical-phenomena-from-a-pulsatile-model-coupled-to-the-guyton-circulatiory-model.pdf](simulation-and-prediction-of-cardiotherapeutical-phenomena-from-a-pulsatile-model-coupled-to-the-guyton-circulatiory-model.pdf)
+  - Comment:
+- Simulators for use in Anaesthesia
+  - Link:[papers/simulators-for-use-in-anaesthesia.pdf](simulators-for-use-in-anaesthesia.pdf)
+  - Comment:
+- Two open access, high-quality datasets from anesthetic records
+  - Link:[papers/two-open-access-high-quality-database-from-anesthetic-records.pdf](two-open-access-high-quality-database-from-anesthetic-records.pdf)
+  - Comment:
 
 ## Papers with no access
 
