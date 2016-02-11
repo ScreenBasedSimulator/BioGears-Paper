@@ -10,12 +10,14 @@ It's a place to store papers and materials about the paper for biogears
 - Circulation: Overall Regulation
   - Link: [papers/circulation-overall-regulation.pdf](papers/circulation-overall-regulation.pdf)
   - Comment:
+    - Guan Wang: This paper is about simulation of changes in circulatory function at the onset of hypertension caused by reduction of renal mass to normal and simultaneous increase in salt intake. Biogears do provide ability to simulate similar scenarios so we will try to simulate it in the future.
 - Coherence of Cardiac Output with Rate Changes
   - Link: [papers/coherence-of-cardiac-output-with-rate-changes.pdf](papers/coherence-of-cardiac-output-with-rate-changes.pdf)
   - Comment:
 - Hypertension Caused by Salt Loading in the Dog
   - Link: [papers/hypertension-caused-by-salt-loading-in-the-dog.pdf](papers/hypertension-caused-by-salt-loading-in-the-dog.pdf)
   - Comment:
+    - Guan Wang: Since salt loading scenario could be simulated in dog, we were thinking about simulating similar scenario in human using both cae software and biogears and compute their difference.
 - Hypertension Caused by Salt Loading II Fluid Volume and Tissue Pressure Changes.
   - Link: [papers/hypertension-caused-by-salt-loading.pdf](papers/hypertension-caused-by-salt-loading.pdf)
   - Comment:
