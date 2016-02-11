@@ -40,6 +40,7 @@ It's a place to store papers and materials about the paper for biogears
 - Two open access, high-quality datasets from anesthetic records
   - Link:[papers/two-open-access-high-quality-database-from-anesthetic-records.pdf](papers/two-open-access-high-quality-database-from-anesthetic-records.pdf)
   - Comment:
+    - Guan Wang: I have inspected the database and two datasets are about the data where patients all have shoulder Arthroscopy. The data format is in xml and easy to process in comparison with biogears, but we will have to discuss it with Doctor Mclvor.
 
 ## Papers with no access
 
