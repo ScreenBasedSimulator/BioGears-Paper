@@ -1,2 +1,10 @@
 
 *.xml
+
+*.pdf
+
+*.aux
+
+*.log
+
+*.gz
