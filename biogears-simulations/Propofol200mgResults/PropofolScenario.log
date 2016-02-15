@@ -1,0 +1,46 @@
+2016-02-14 21:09:17,083 [INFO]  : [0(s)] Computed Patient Maximum Heart rate is 177.2(1/min)
+2016-02-14 21:09:17,222 [INFO]  : [0(s)] Converging to a steady state
+2016-02-14 21:09:22,916 [INFO]  : [10.0111(s)] Converging System... it took 5.68s to simulate the past 10s
+2016-02-14 21:09:27,817 [INFO]  : [20.0222(s)] Converging System... it took 4.9s to simulate the past 10s
+2016-02-14 21:09:32,862 [INFO]  : [30.0333(s)] Converging System... it took 5.04s to simulate the past 10s
+2016-02-14 21:09:38,445 [INFO]  : [40.0444(s)] Converging System... it took 5.58s to simulate the past 10s
+2016-02-14 21:09:44,079 [INFO]  : [50.0556(s)] Converging System... it took 5.63s to simulate the past 10s
+2016-02-14 21:09:49,616 [INFO]  : [60.0667(s)] Converging System... it took 5.54s to simulate the past 10s
+2016-02-14 21:09:54,668 [INFO]  : [70.0778(s)] Converging System... it took 5.05s to simulate the past 10s
+2016-02-14 21:09:59,657 [INFO]  : [80.0889(s)] Converging System... it took 4.99s to simulate the past 10s
+2016-02-14 21:10:04,463 [INFO]  : [90.1(s)] Converging System... it took 4.81s to simulate the past 10s
+2016-02-14 21:10:09,270 [INFO]  : [100.111(s)] Converging System... it took 4.81s to simulate the past 10s
+2016-02-14 21:10:14,261 [INFO]  : [110.122(s)] Converging System... it took 4.99s to simulate the past 10s
+2016-02-14 21:10:19,226 [INFO]  : [120.133(s)] Converging System... it took 4.96s to simulate the past 10s
+2016-02-14 21:10:24,647 [INFO]  : [130.144(s)] Converging System... it took 5.42s to simulate the past 10s
+2016-02-14 21:10:29,989 [INFO]  : [140.156(s)] Converging System... it took 5.34s to simulate the past 10s
+2016-02-14 21:10:35,027 [INFO]  : [150.167(s)] Converging System... it took 5.04s to simulate the past 10s
+2016-02-14 21:10:40,223 [INFO]  : [160.178(s)] Converging System... it took 5.2s to simulate the past 10s
+2016-02-14 21:10:45,409 [INFO]  : [170.189(s)] Converging System... it took 5.19s to simulate the past 10s
+2016-02-14 21:10:50,450 [INFO]  : [180.2(s)] Converging System... it took 5.04s to simulate the past 10s
+2016-02-14 21:10:51,528 [INFO]  : [182.278(s)] Convergence took 94.3s to simulate 182s to get engine to a steady state
+2016-02-14 21:10:51,529 [INFO]  : [182.278(s)] Converging feedback to a steady state
+2016-02-14 21:10:56,705 [INFO]  : [192.289(s)] Converging System... it took 5.17s to simulate the past 10s
+2016-02-14 21:11:02,013 [INFO]  : [202.3(s)] Converging System... it took 5.31s to simulate the past 10s
+2016-02-14 21:11:02,013 [INFO]  : [202.3(s)] Convergence took 10.5s to simulate 202s to get engine to a steady state
+2016-02-14 21:11:02,013 [INFO]  : [0(s)] Executing Scenario
+2016-02-14 21:11:18,934 [INFO]  : [30.0111(s)] [Action] 30.0111(s), Patient Action : Substance Bolus
+	Dose: 200(mL)
+	Concentration: 1000(ug/mL)
+	Substance: Propofol
+	Administration Route: Intravenous
+2016-02-14 21:11:20,811 [INFO]  : [33.2(s)] [Event] 33.2(s),  Patient has Bradycardia
+2016-02-14 21:11:20,966 [INFO]  : [33.4333(s)] [Event] 33.4333(s),  Patient has Bradypnea
+2016-02-14 21:11:22,658 [INFO]  : [36.4889(s)] [Event] 36.4889(s),  Patient has Antidiuresis
+2016-02-14 21:11:23,698 [INFO]  : [38.2778(s)] [Event] 38.2778(s),  Patient no longer has Bradycardia
+2016-02-14 21:11:26,050 [INFO]  : [42.4222(s)] [Event] 42.4222(s),  Patient no longer is in Antidiuresis
+2016-02-14 21:11:35,501 [INFO]  : [56.0333(s)] [Event] 56.0333(s),  Patient has Hypoxia
+2016-02-14 21:11:38,653 [INFO]  : [60(s)] Current Time is 59.9889s, it took 36.637s to simulate the past 60s
+2016-02-14 21:12:14,976 [INFO]  : [120(s)] Current Time is 119.989s, it took 36.32s to simulate the past 60s
+2016-02-14 21:12:51,241 [INFO]  : [180(s)] Current Time is 179.989s, it took 36.263s to simulate the past 60s
+2016-02-14 21:13:25,790 [INFO]  : [240(s)] Current Time is 239.989s, it took 34.546s to simulate the past 60s
+2016-02-14 21:13:32,519 [INFO]  : [251.656(s)] [Event] 251.656(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
+2016-02-14 21:13:32,571 [INFO]  : [251.711(s)] [Event] 251.711(s),  Patient is no longer exceeding the Maximum Pulmonary Ventilation Rate
+2016-02-14 21:13:32,709 [INFO]  : [251.867(s)] [Event] 251.867(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
+2016-02-14 21:14:00,787 [INFO]  : [300(s)] Current Time is 299.989s, it took 34.995s to simulate the past 60s
+2016-02-14 21:14:17,183 [INFO]  : [330.022(s)] It took 195.158s to run this simulation

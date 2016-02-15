@@ -1,0 +1,47 @@
+2016-02-14 21:14:57,767 [INFO]  : [0(s)] Computed Patient Maximum Heart rate is 177.2(1/min)
+2016-02-14 21:14:57,838 [INFO]  : [0(s)] Converging to a steady state
+2016-02-14 21:15:02,834 [INFO]  : [10.0111(s)] Converging System... it took 4.99s to simulate the past 10s
+2016-02-14 21:15:08,159 [INFO]  : [20.0222(s)] Converging System... it took 5.32s to simulate the past 10s
+2016-02-14 21:15:13,251 [INFO]  : [30.0333(s)] Converging System... it took 5.09s to simulate the past 10s
+2016-02-14 21:15:18,323 [INFO]  : [40.0444(s)] Converging System... it took 5.07s to simulate the past 10s
+2016-02-14 21:15:23,455 [INFO]  : [50.0556(s)] Converging System... it took 5.13s to simulate the past 10s
+2016-02-14 21:15:30,403 [INFO]  : [60.0667(s)] Converging System... it took 6.95s to simulate the past 10s
+2016-02-14 21:15:37,324 [INFO]  : [70.0778(s)] Converging System... it took 6.92s to simulate the past 10s
+2016-02-14 21:15:43,267 [INFO]  : [80.0889(s)] Converging System... it took 5.94s to simulate the past 10s
+2016-02-14 21:15:48,695 [INFO]  : [90.1(s)] Converging System... it took 5.43s to simulate the past 10s
+2016-02-14 21:15:53,800 [INFO]  : [100.111(s)] Converging System... it took 5.1s to simulate the past 10s
+2016-02-14 21:15:58,885 [INFO]  : [110.122(s)] Converging System... it took 5.08s to simulate the past 10s
+2016-02-14 21:16:03,846 [INFO]  : [120.133(s)] Converging System... it took 4.96s to simulate the past 10s
+2016-02-14 21:16:08,669 [INFO]  : [130.144(s)] Converging System... it took 4.82s to simulate the past 10s
+2016-02-14 21:16:13,739 [INFO]  : [140.156(s)] Converging System... it took 5.07s to simulate the past 10s
+2016-02-14 21:16:19,362 [INFO]  : [150.167(s)] Converging System... it took 5.62s to simulate the past 10s
+2016-02-14 21:16:25,121 [INFO]  : [160.178(s)] Converging System... it took 5.76s to simulate the past 10s
+2016-02-14 21:16:30,830 [INFO]  : [170.189(s)] Converging System... it took 5.71s to simulate the past 10s
+2016-02-14 21:16:36,100 [INFO]  : [180.2(s)] Converging System... it took 5.27s to simulate the past 10s
+2016-02-14 21:16:37,264 [INFO]  : [182.278(s)] Convergence took 99.4s to simulate 182s to get engine to a steady state
+2016-02-14 21:16:37,265 [INFO]  : [182.278(s)] Converging feedback to a steady state
+2016-02-14 21:16:43,177 [INFO]  : [192.289(s)] Converging System... it took 5.91s to simulate the past 10s
+2016-02-14 21:16:48,926 [INFO]  : [202.3(s)] Converging System... it took 5.75s to simulate the past 10s
+2016-02-14 21:16:48,927 [INFO]  : [202.3(s)] Convergence took 11.7s to simulate 202s to get engine to a steady state
+2016-02-14 21:16:48,927 [INFO]  : [0(s)] Executing Scenario
+2016-02-14 21:17:07,697 [INFO]  : [30.0111(s)] [Action] 30.0111(s), Patient Action : Substance Bolus
+	Dose: 50(mL)
+	Concentration: 1000(ug/mL)
+	Substance: Rocuronium
+	Administration Route: Intravenous
+2016-02-14 21:17:10,043 [INFO]  : [33.4333(s)] [Event] 33.4333(s),  Patient has Bradypnea
+2016-02-14 21:17:25,145 [INFO]  : [60(s)] Current Time is 59.9889s, it took 36.215s to simulate the past 60s
+2016-02-14 21:17:29,186 [INFO]  : [67.3667(s)] [Event] 67.3667(s),  Patient has Hypoxia
+2016-02-14 21:18:04,317 [INFO]  : [120(s)] Current Time is 119.989s, it took 39.169s to simulate the past 60s
+2016-02-14 21:18:22,859 [INFO]  : [147.567(s)] [Event] 147.567(s),  Patient has Tachycardia
+2016-02-14 21:18:43,965 [INFO]  : [180(s)] Current Time is 179.989s, it took 39.645s to simulate the past 60s
+2016-02-14 21:19:18,592 [INFO]  : [237.256(s)] [Event] 237.256(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
+2016-02-14 21:19:18,797 [INFO]  : [237.478(s)] [Event] 237.478(s),  Patient is no longer exceeding the Maximum Pulmonary Ventilation Rate
+2016-02-14 21:19:18,972 [INFO]  : [237.744(s)] [Event] 237.744(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
+2016-02-14 21:19:20,709 [INFO]  : [240(s)] Current Time is 239.989s, it took 36.742s to simulate the past 60s
+2016-02-14 21:19:23,806 [INFO]  : [244.789(s)] [Event] 244.789(s),  Patient is no longer exceeding the Maximum Pulmonary Ventilation Rate
+2016-02-14 21:19:23,984 [INFO]  : [245.056(s)] [Event] 245.056(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
+2016-02-14 21:19:24,034 [INFO]  : [245.122(s)] [Event] 245.122(s),  Patient is no longer exceeding the Maximum Pulmonary Ventilation Rate
+2016-02-14 21:19:24,963 [INFO]  : [246.644(s)] [Event] 246.644(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
+2016-02-14 21:19:58,923 [INFO]  : [300(s)] Current Time is 299.989s, it took 38.211s to simulate the past 60s
+2016-02-14 21:20:16,949 [INFO]  : [330.022(s)] It took 208.009s to run this simulation
