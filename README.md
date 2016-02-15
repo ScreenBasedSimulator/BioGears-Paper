@@ -25,7 +25,7 @@ It's a place to store papers and materials about the paper for biogears
   - Link: [papers/implementing-of-a-model-of-bodily-fluids-regulation.pdf](papers/implementing-of-a-model-of-bodily-fluids-regulation.pdf)
   - Comment:
 - Measuring the Repeatability of Simulated Physiology in Simulators
-  - Link:[papers/measuring-the-repeatability-of-simulated-physiology-in-simulators](papers/measuring-the-repeatability-of-simulated-physiology-in-simulators)
+  - Link:[papers/measuring-the-repeatability-of-simulated-physiology-in-simulators](papers/measuring-the-repeatability-of-simulated-physiology-in-simulators.pdf)
   - Comment:
     - Guan Wang: We will be building our paper framework based on this paper cause this is a good example showing how experiments' done and recorded.
 - Numerical Simulation of the Hemodynamic Response to Hemodialysis-Induced Hypovolemia
@@ -49,7 +49,7 @@ It's a place to store papers and materials about the paper for biogears
 
 ## Papers with no access
 
-    Cumin, David, Charlotte Chen, and Alan F. Merry. "Measuring the repeatability of simulated physiology in simulators." Simulation in Healthcare 10.6 (2015): 336-344.
+    (Found)Cumin, David, Charlotte Chen, and Alan F. Merry. "Measuring the repeatability of simulated physiology in simulators." Simulation in Healthcare 10.6 (2015): 336-344.
 
 # BioGears Simulation
 ## Bradypnea Simulation (Stops Breathing)
