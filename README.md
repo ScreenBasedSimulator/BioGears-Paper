@@ -24,6 +24,10 @@ It's a place to store papers and materials about the paper for biogears
 - Implementation of a Model of Bodily Fluids Regulation
   - Link: [papers/implementing-of-a-model-of-bodily-fluids-regulation.pdf](papers/implementing-of-a-model-of-bodily-fluids-regulation.pdf)
   - Comment:
+- Measuring the Repeatability of Simulated Physiology in Simulators
+  - Link:[papers/measuring-the-repeatability-of-simulated-physiology-in-simulators](papers/measuring-the-repeatability-of-simulated-physiology-in-simulators.pdf)
+  - Comment:
+    - Guan Wang: We will be building our paper framework based on this paper cause this is a good example showing how experiments' done and recorded.
 - Numerical Simulation of the Hemodynamic Response to Hemodialysis-Induced Hypovolemia
   - Link:[papers/numerial-simulation-of-the-hemodynamic-response-to-hemodialysis-induced-hypovolemia.pdf](papers/numerial-simulation-of-the-hemodynamic-response-to-hemodialysis-induced-hypovolemia.pdf)
   - Comment:
@@ -41,14 +45,11 @@ It's a place to store papers and materials about the paper for biogears
   - Link:[papers/two-open-access-high-quality-database-from-anesthetic-records.pdf](papers/two-open-access-high-quality-database-from-anesthetic-records.pdf)
   - Comment:
     - Guan Wang: I have inspected the database and two datasets are about the data where patients all have shoulder Arthroscopy. The data format is in xml and easy to process in comparison with biogears, but we will have to discuss it with Doctor Mclvor.
-- Cumin 2015 Repeatability simple
-  - Link:[papers/013-Cumin-2015-Repeatability-simple.pdf](papers/013-Cumin-2015-Repeatability-simple.pdf)
-  - Comment:
-    - Guan Wang: We will be building our paper framework based on this paper cause this is a good example showing how experiments' done and recorded.
+
 
 ## Papers with no access
 
-    Cumin, David, Charlotte Chen, and Alan F. Merry. "Measuring the repeatability of simulated physiology in simulators." Simulation in Healthcare 10.6 (2015): 336-344.
+    (Found)Cumin, David, Charlotte Chen, and Alan F. Merry. "Measuring the repeatability of simulated physiology in simulators." Simulation in Healthcare 10.6 (2015): 336-344.
 
 # BioGears Simulation
 ## Bradypnea Simulation (Stops Breathing)
