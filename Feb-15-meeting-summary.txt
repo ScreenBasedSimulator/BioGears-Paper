@@ -1,0 +1,98 @@
+
+ 
+The dataset
+
+Drug: Morphine
+
+Q: Respiratory Rate plot
+A:  Supposed to drop to zero from 1.6F, but the graph does not show so.
+Bill: The model is wrong;
+run the model with 100 (mg) morphine;
+if oxygenate the person, he/she may come back;
+ 
+Q: Pressure of respiratory rate
+Observation:
+It drops as is expected; the plot of morphine should look like this way
+Around 270, the curve should go back to the normal level
+ 
+Propofol:
+Q: Arterial Pressure
+A: Looks fine
+ 
+Q: Heart Rate
+A: At around 30 - 40, it is not supposed to go down; not supposed to rise again.
+ 
+Q: respiratory Rate
+A: Supposed to come up at some point and recover
+ 
+Rocuronium
+Q: Arterial Pressure
+A: Not supposed to do anything on the patient (Fluctuation)
+Go up, stay for a minute, then plummets to the bottom
+ 
+Q: heart rate plot
+A: It is supposed to be flat and then falls off cause the heart is dying
+Supposed to be steeper, stay for a little bit, and then drops all the way
+ 
+Q: respiratory rate
+A: makes sense.
+ 
+Q: oxygen saturation
+A: makes sense
+    How to evaluate: pick a small number
+ 
+Succinlcholine
+ 
+Q: Arterial Pressure
+A: Look like the one of rocuronium
+ 
+Q: respiratory rate
+A: Should look like this (why there is a hiccup)
+Supposed to come back up as long as the patient is alive (After 4 mins)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+Try-out for Sean to run:
+Drug: Fentanyl
+If give 500 micrograms of fentanyl (10 ml of 50 mcg/ml)
+To a normal healthy person, stop breathing in 30 secs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Put everything into one graph and scale them properly
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+Questions for BioGears:
+Where do they get their models from?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Research paper: Measuring the Repeatability of Simulated Physiology in Simulators
+Q: part2 shows equivalent training method, but how should we address it?
+A: 2.1 people practice on human beings within the current paradigm of training
+Often time, people cannot take care of actual humans well; in the old days, they used animals which caused a lot of problems; OVERALL IT IS BAD, CRUEL, MONEY-CONSUMING, UNETHICAL, BAD WAY TO TRAIN PEOPLE
+Author:
+Ziv: Ethical imperative of human simulation (Bill will mail this to us)
+In the real world, we can try out things like 100g of morphine, which is impossible to do on actual humans.
+ 
+Mannequin: The model also has its limits
+ 
+Problems of SBS: inaccurate physiological engine; 
+need an instructor to take care of everything;
+Need to have an accurate physiological engine that handles everything; has multiple options that trainees could try.
+ 
+We want to take the best model, CAE model, and then compare it to BioGears (open source, which we will use as the physiological engine for the simulator).
+ 
+Q: 4 -5 drugs that we use; keep them SIMPLE
+ 
+Q: On the paper, we will  populate a table with numbers, graphs
+ 
+Send Bill the time to meet on Wednesday, February 24th
+
+
+
+Paper
+
+Background Section:
+Ziv A, Wolpe PR, Small SD, Glick S: Simulation-based medical education: an ethical imperative. Acad Med 2003; 78: 783-8
