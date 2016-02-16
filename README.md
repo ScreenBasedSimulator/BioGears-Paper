@@ -55,16 +55,16 @@ It's a place to store papers and materials about the paper for biogears
 ## Bradypnea Simulation (Stops Breathing)
 ### Scenario 1
 Standard Patient stops breathing for 30s and recover.
-![Oxygen Saturation](biogears-simulations/AnesthesiaMachineStop30Results/OxygenSaturation_vs_Time.jpg)
+![Oxygen Saturation](biogears-simulations/bradypnea/AnesthesiaMachineStop30Results/OxygenSaturation_vs_Time.jpg)
 ### Scenario 2
 Standard Patient stops breathing for 120s and recover.
-![Oxygen Saturation](biogears-simulations/AnesthesiaMachineStop120Results/OxygenSaturation_vs_Time.jpg)
+![Oxygen Saturation](biogears-simulations/bradypnea/AnesthesiaMachineStop120Results/OxygenSaturation_vs_Time.jpg)
 ### Scenario 3
 Obesity Patient given 1 min of pure oxygen and then stops breathing
-![Oxygen Saturation](biogears-simulations/AnesthesiaMachineObesityResults/OxygenSaturation_vs_Time.jpg)
+![Oxygen Saturation](biogears-simulations/bradypnea/AnesthesiaMachineObesityResults/OxygenSaturation_vs_Time.jpg)
 
 ## Hemorrhage (Bleeding)
 ### Scenario 1
 Standard Patient bleed for 250ml/min for 4 mins then stops bleeding.
-![Heart Rate](biogears-simulations/HemorrhageClass2BloodResults/HeartRate_vs_Time.jpg)
-![Systolic Arterial Pressure](biogears-simulations/HemorrhageClass2BloodResults/SystolicArterialPressure_vs_Time.jpg)
+![Heart Rate](biogears-simulations/hemorrhage/HemorrhageClass2BloodResults/HeartRate_vs_Time.jpg)
+![Systolic Arterial Pressure](biogears-simulations/hemorrhage/HemorrhageClass2BloodResults/SystolicArterialPressure_vs_Time.jpg)
