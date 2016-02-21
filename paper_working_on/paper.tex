@@ -5,7 +5,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
-
+\usepackage{verbatim}
 
 \title{Biogears in Anesthesia Screen Based Simulation}
 
@@ -53,21 +53,22 @@ Bleeding patients are often seen in trauma and emergency rooms. The cause of thi
 
 To run this experiment on Biogears, we tested it using built-in GUI of Biogears that provides dozens of substances simulation.  
 
-\begin{figure}
-  \centering
-  \includegraphics[width=10cm]{bleeding_out_HeartRate_vs_Time.jpg}
-  \caption{heart rate changes when patient bleeds out in Biogears simulation}
-  \label{fig:patient bleeding}
+
+\begin{figure}[!htb]\centering
+   \begin{minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{bleeding_out_HeartRate_vs_Time.jpg}}
+     \caption{heart rate changes}
+     \label{fig:patient bleeding}
+     
+   \end{minipage}
+   \begin {minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{bleeding_out_RespirationRate_vs_Time.jpg}}
+     \caption{respiratory rate changes}
+     \label{fig:patient bleeding}
+   \end{minipage}
 \end{figure}
 
-\begin{figure}
-  \centering
-  \includegraphics[width=10cm]{bleeding_out_RespirationRate_vs_Time.jpg}
-  \caption{heart rate changes when patient bleeds out in Biogears simulation}
-  \label{fig:patient bleeding}
-\end{figure}
-
-In reality, it is not the case that patient could live with continuous hemorrhage: The heart rate of patient will increase because with blood loss there is not enough oxygen so his/her heart has to pump faster and absorb more oxygen. His respiratory rate will rise. But after a while, when he/she eventually loses 
+In reality, it is not the case that patient could live with continuous hemorrhage: The heart rate of patient will increase because with blood loss there is not enough oxygen so his/her heart has to pump faster and absorb more oxygen. His respiratory rate will rise. But after a while, when he/she eventually loses
 
 
 - bleeding out scenarios, multiple experiments, (mean, root mean squared error, median performance error data recorded)
@@ -79,8 +80,32 @@ In reality, it is not the case that patient could live with continuous hemorrhag
 
 - simulate with propofal(200mg), morphine so4(20mg), rocuromium(50mg), succinocloon(100mg), room air(170/70kg)
 
-\subsection{Physical experiments}
-\subsection{Other simulators}
+\subsection{oxygen desaturation Scenarios}
+
+Oxygen Desaturation is another incident that's often observed by physicians where it occurs during sleep of patients with chronic obstructive lung disease and is often caused by sleep-disordered breathing(SDB)\cite{low_oxygen_sleep}. When this happens, the concentration of oxygen in patients' blood decreases and it may result in various symptoms, such as shortness of breath.
+
+For physicians, being able to track how long patient has been experiencing such symptoms is important. For example, in surgery, if patient suffered from deficiency of blood oxygen for a long time, it may cause their brains irreversible damage. So we also designed experiments to see how Biogears reacts to patients simulation who are suffering from lack of oxygen for different range of time. In reality, if a patient experience lack of oxygen in blood for a longer time, it will be harder or even impossible for his brain and body to recover from this disease.
+
+In Biogears, we set up two patients to stop breathing for 30 and 120 seconds and then restore the their air supply. The following graphs are the simulation result for them.
+
+\begin{figure}[!htb]\centering
+   \begin{minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{30_OxygenSaturation_vs_Time.jpg}}
+     \caption{oxygen saturation changes}
+     \label{fig:patient stoping breathing}
+     
+   \end{minipage}
+   \begin {minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{120_OxygenSaturation_vs_Time.jpg}}
+     \caption{oxygen saturation changes}
+     \label{fig:patient stoping breathing}
+   \end{minipage}
+\end{figure}
+
+As we can see on the graphs, both patients' oxygen saturation drops as they stopped breathing and once we restore the air supply, they recovered from it in 25 seconds. And there actually isn't difference in how long it will take them to recover from the deficiency. It shows that Biogears is currently not capable to simulate this complex yet delicate recovery scenarios.
+
+%\subsection{Physical experiments}
+%\subsection{Other simulators}
 
 \section{Enumerate limits and future work}
 \subsection{Limits of screen based simulation}
@@ -90,7 +115,7 @@ In reality, it is not the case that patient could live with continuous hemorrhag
 
   \bibitem{measure_repeatability} Cumin, David, Charlotte Chen, and Alan F. Merry. "Measuring the repeatability of simulated physiology in simulators." Simulation in Healthcare 10.6 (2015): 336-344.
 
-  \bibitem{impj}  
+  \bibitem{low_oxygen_sleep}Kearley, R., et al. "The effect of low flow oxygen on sleep-disordered breathing and oxygen desaturation. A study of patients with chronic obstructive lung disease." CHEST Journal 78.5 (1980): 682-685.  
 
   \bibitem{norman} 
 
