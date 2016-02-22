@@ -53,7 +53,6 @@ Bleeding patients are often seen in trauma and emergency rooms. The cause of thi
 
 To run this experiment on Biogears, we tested it using built-in GUI of Biogears that provides dozens of substances simulation.  
 
-
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
      \frame{\includegraphics[width=5cm]{bleeding_out_HeartRate_vs_Time.jpg}}
@@ -80,7 +79,7 @@ In reality, it is not the case that patient could live with continuous hemorrhag
 
 - simulate with propofal(200mg), morphine so4(20mg), rocuromium(50mg), succinocloon(100mg), room air(170/70kg)
 
-\subsection{oxygen desaturation Scenarios}
+\subsection{Oxygen Desaturation Scenarios}
 
 Oxygen Desaturation is another incident that's often observed by physicians where it occurs during sleep of patients with chronic obstructive lung disease and is often caused by sleep-disordered breathing(SDB)\cite{low_oxygen_sleep}. When this happens, the concentration of oxygen in patients' blood decreases and it may result in various symptoms, such as shortness of breath.
 
@@ -102,7 +101,58 @@ In Biogears, we set up two patients to stop breathing for 30 and 120 seconds and
    \end{minipage}
 \end{figure}
 
-As we can see on the graphs, both patients' oxygen saturation drops as they stopped breathing and once we restore the air supply, they recovered from it in 25 seconds. And there actually isn't difference in how long it will take them to recover from the deficiency. It shows that Biogears is currently not capable to simulate this complex yet delicate recovery scenarios.
+As we can see on the graphs, both patients' oxygen saturation drops as they stopped breathing and once we restore the air supply, they recovered from it in 25 seconds. And there actually isn't difference in how long it will take them to recover from the deficiency. It shows that Biogears is currently not capable of simulating this complex yet delicate recovery scenarios.
+
+\subsection{Tests for Common Drugs}
+
+\subsubsection{Succinycholine Simulation}
+
+Succinycholine is a drug that could trigger short-period muscle relaxation and therefore used as an approach to induce short-period paralysis. In the discipline of anesthesia, it is used widely for emergency medicine and trauma care due to its fast-acting and short-duration nature. Therefore, adjusting its dosage to multiple scenarios is important for those who wish to practice their knowledge and become anaesthetist in the future.
+
+In Biogears, we set up the Succinycholine's dosage to be 5 mg as suggested by Dr. Mchvor. We simulated the scenario for  
+more than 900 seconds cause it takes time for patient to recover from paralysis.
+\begin{figure}[!htb]\centering
+   \begin{minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Succinylcholine_HeartRate_vs_Time.jpg}}
+     \caption{Heart Rate changes}
+     \label{fig:given 5 mg Succinylcholine}
+     
+   \end{minipage}
+   \begin {minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Succinylcholine_OxygenSaturation_vs_Time.jpg}}
+     \caption{Oxygen Saturation changes}
+     \label{fig:given 5 mg Succinylcholine}
+   \end{minipage}
+\end{figure}
+
+\begin{figure}[!htb]\centering
+   \begin{minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Succinylcholine_ArterialPressure_vs_Time.jpg}}
+     \caption{Blood Pressure changes}
+     \label{fig:given 5 mg Succinylcholine}
+     
+   \end{minipage}
+   \begin {minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Succinylcholine_RespirationRate_vs_Time.jpg}}
+     \caption{Respiration Rate changes}
+     \label{fig:given 5 mg Succinylcholine}
+   \end{minipage}
+\end{figure}
+
+In CAE, we set up the Succinycholine's dosage to be 77mg cause Muse only provides options for injection corresponding to the patient weight. We simulated the scenario for more than 
+
+When observing the result graphs, we could see that patient stopped breathing for nearly 4 minutes. 
+
+
+
+
+\subsubsection{Rocuronium 50 mg Simulation}
+
+\subsubsection{Propofol 200 mg Simulation}
+
+\subsubsection{Morphine 40 mg Simulation}
+
+\subsubsection{Fentanyl 500 ug Simulation}
 
 %\subsection{Physical experiments}
 %\subsection{Other simulators}
