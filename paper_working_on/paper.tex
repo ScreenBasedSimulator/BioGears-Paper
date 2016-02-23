@@ -111,6 +111,9 @@ Succinycholine is a drug that could trigger short-period muscle relaxation and t
 
 In Biogears, we set up the Succinycholine's dosage to be 5 mg as suggested by Dr. Mchvor. We simulated the scenario for  
 more than 900 seconds cause it takes time for patient to recover from paralysis.
+
+When observing the result graphs, we could see that patient stopped breathing for nearly 4 minutes. 
+
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
      \frame{\includegraphics[width=5cm]{Succinylcholine_HeartRate_vs_Time.jpg}}
@@ -139,16 +142,75 @@ more than 900 seconds cause it takes time for patient to recover from paralysis.
    \end{minipage}
 \end{figure}
 
-In CAE, we set up the Succinycholine's dosage to be 77mg cause Muse only provides options for injection corresponding to the patient weight. We simulated the scenario for more than 
-
-When observing the result graphs, we could see that patient stopped breathing for nearly 4 minutes. 
-
-
-
+In CAE, we set up the Succinycholine's dosage to be 77mg cause Muse only provides options for injection corresponding to the patient weight. We simulated the scenario for 6 minutes. 
 
 \subsubsection{Rocuronium 50 mg Simulation}
 
+Rocuronium is an anaesthesia drug that blocks neuromuscular signals in muscles and therefore used as muscle relaxant. It is widely used for surgery or mechanical ventilation with the nature of rapid onset and intermediate duration. For the experiment, we set up both normal patient and patient with asthma history to see how they react to the drug.(Asthma patient will likely suffer from allergy)
+
+In the experiment, we gave each patient 50 mg Rocuronium and record the response of vital signs as following graphs:
+
+\begin{figure}[!htb]\centering
+   \begin{minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Rocuronium_HeartRate_vs_Time.jpg}}
+     \caption{Heart Rate changes}
+     \label{fig:given 50 mg Rocuronium}
+     
+   \end{minipage}
+   \begin {minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Rocuronium_OxygenSaturation_vs_Time.jpg}}
+     \caption{Oxygen Saturation changes}
+     \label{fig:given 50 mg Rocuronium}
+   \end{minipage}
+\end{figure}
+
+\begin{figure}[!htb]\centering
+   \begin{minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Rocuronium_ArterialPressure_vs_Time.jpg}}
+     \caption{Blood Pressure changes}
+     \label{fig:given 50 mg Rocuronium}
+     
+   \end{minipage}
+   \begin {minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Rocuronium_RespirationRate_vs_Time.jpg}}
+     \caption{Respiration Rate changes}
+     \label{fig:given 50 mg Rocuronium}
+   \end{minipage}
+\end{figure}
+ 
 \subsubsection{Propofol 200 mg Simulation}
+
+Before and during the surgery, Propofol is widely used as a way of sedation to decrease level of consciousness and lack of memory for events of patients. Its maximum effect usually takes about 2 minutes to take place and it often lasts 5 to 10 minutes.
+
+In our experiment, We set up the dosage to be 200 mg for Biogears and ran it for about 6 mintes. The results are as followed:
+
+\begin{figure}[!htb]\centering
+   \begin{minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Propofol_HeartRate_vs_Time.jpg}}
+     \caption{Heart Rate changes}
+     \label{fig:given 200 mg Propofol}
+     
+   \end{minipage}
+   \begin {minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Propofol_OxygenSaturation_vs_Time.jpg}}
+     \caption{Oxygen Saturation changes}
+     \label{fig:given 200 mg Propofol}
+   \end{minipage}
+\end{figure}
+
+\begin{figure}[!htb]\centering
+   \begin{minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Propofol_ArterialPressure_vs_Time.jpg}}
+     \caption{Blood Pressure changes}
+     \label{fig:given 200 mg Propofol}
+     
+   \end{minipage}
+   \begin {minipage}{0.49\textwidth}
+     \frame{\includegraphics[width=5cm]{Propofol_RespirationRate_vs_Time.jpg}}
+     \caption{Respiration Rate changes}
+     \label{fig:given 200 mg Propofol}
+   \end{minipage}
+\end{figure}
 
 \subsubsection{Morphine 40 mg Simulation}
 
