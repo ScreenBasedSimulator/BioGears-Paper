@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div id="category-destribution" style="height:600px;"></div>
+    <script src="/js/echart/echarts.js"></script>
+    <script src="/js/d3.min.js"></script>
+    <script type="text/javascript">
+        require.config({
+            paths: {
+                echarts: '/js/echart'
+            }
+        });
+
+        require(
+            [
+                'echarts',
+                'echarts/chart/line'
+            ],
+            function (ec) {
+                var myChart = ec.init(document.getElementById('category-destribution'));
+                myChart.showLoading({
+                    text : 'Loading...',
+                    effect : 'dynamicLine',
+                    textStyle : {
+                        fontSize : 20
+                    }
+                });
+                // var path = '/drugs/FentanylScenarioResults.csv';
+                var path = 'drugs/SuccinylcholineScenarioResults.csv';
+                option = {
+                    title : {
+                        text: path.replace('ScenarioResults.csv',"").replace("drugs/",""),
+                    },
+                    tooltip : {
+                        trigger: 'axis'
+                    },
+                    legend: {
+                        data:['Heart Rate','Systolic Arterial Pressure','Diastolic Arterial Pressure','Respiration Rate','Oxygen Saturation']
+                    },
+                    toolbox: {
+                        show : true,
+                        feature : {
+                            mark : {show: true},
+                            dataView : {show: true, readOnly: false},
+                            magicType : {show: true, type: ['line', 'bar']},
+                            restore : {show: true},
+                            saveAsImage : {show: true}
+                        }
+                    },
+                    calculable : true,
+                    xAxis : [
+                        {
+                            type : 'category',
+                            boundaryGap : false,
+                            data : []
+                        }
+                    ],
+                    yAxis : [
+                        {
+                            type : 'value',
+                            axisLabel : {
+                                formatter: '{value}'
+                            }
+                        }
+                    ],
+                    series : [
+                        {
+                            name:'Heart Rate',
+                            type:'line',
+                            symbol: 'none',
+                            data: null,
+                        },
+                        {
+                            name:'Systolic Arterial Pressure',
+                            type:'line',
+                            symbol: 'none',
+                            data: null,
+                        },
+                        {
+                            name:'Diastolic Arterial Pressure',
+                            type:'line',
+                            symbol: 'none',
+                            data: null,
+                        },
+                        {
+                            name:'Respiration Rate',
+                            type:'line',
+                            symbol: 'none',
+                            data: null,
+                        },
+                        {
+                            name:'Oxygen Saturation',
+                            type:'line',
+                            symbol: 'none',
+                            data: null,
+                        },
+                    ]
+                };
+
+
+                // 为echarts对象加载数据
+
+                window.onresize = function(){
+                    myChart.resize();
+                 };
+                 d3.csv(path, function(data){
+                   time = [];
+                   hr = [];
+                   sp = [];
+                   dp = [];
+                   rr = [];
+                   spo2 = [];
+                   for (var i=0;i<data.length;i++) {
+                     dataPoint = data[i];
+                     time.push(dataPoint['time']);
+                     hr.push(dataPoint['hr']);
+                     sp.push(dataPoint['sp']);
+                     dp.push(dataPoint['dp']);
+                     rr.push(dataPoint['rr']);
+                     spo2.push(dataPoint['spo2']*100);
+                   }
+                   option.xAxis[0].data = time;
+                   option.series[0].data = hr;
+                   option.series[1].data = sp;
+                   option.series[2].data = dp;
+                   option.series[3].data = rr;
+                   option.series[4].data = spo2;
+                   myChart.setOption(option);
+                   myChart.hideLoading();
+                 })
+            }
+        );
+
+    </script>
+
+  </body>
+</html>
