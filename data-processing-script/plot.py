@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import datetime as dt
-import csv
-
+# import datetime as dt
+# import csv
+import pandas as pd
 plot = []
 
 #read the file from the csv_from_cae folder
@@ -61,14 +61,29 @@ for i in range(0, len(time_stamp)):
         
         if (letter.isdigit()):
             tmp += letter
-    time_stamp[i] = tmp
+    time_stamp[i] = int(tmp[-4:])
 
 print time_stamp
-plt.plot(time_stamp, HR)
-plt.plot(time_stamp, SBP)
-plt.plot(time_stamp, DBP)
-plt.plot(time_stamp, RR)
-plt.plot(time_stamp, SpO2)
+
+from matplotlib.pyplot import cm
+
+nums = np.linspace(0,1,5) - 0.01
+color1=cm.rainbow(nums[0]) #purple  HR
+color2=cm.rainbow(nums[1]) #blue    SBP
+color3=cm.rainbow(nums[2]) #green   DBP
+color4=cm.rainbow(nums[3]) #orange  RR
+color5=cm.rainbow(nums[4]) #red     SpO2
+# print color
+
+for i in range(5):
+    plt.plot(time_stamp, plot[i], color=cm.rainbow(nums[i]))
+
 plt.title("Physiological Data Log")
 plt.xlabel("Time")
 plt.ylabel("Value")
+plt.text(850,80,"purple: HR")
+plt.text(850,70,"blue: SBP")
+plt.text(850,60,"green: DBP")
+plt.text(850,50,"orange: RR")
+plt.text(850,40,"red: SpO2")
+plt.show()
