@@ -1,41 +1,42 @@
-2016-02-14 21:26:34,786 [INFO]  : [0(s)] Computed Patient Maximum Heart rate is 177.2(1/min)
-2016-02-14 21:26:34,842 [INFO]  : [0(s)] Converging to a steady state
-2016-02-14 21:26:40,406 [INFO]  : [10.0111(s)] Converging System... it took 5.56s to simulate the past 10s
-2016-02-14 21:26:45,499 [INFO]  : [20.0222(s)] Converging System... it took 5.09s to simulate the past 10s
-2016-02-14 21:26:50,534 [INFO]  : [30.0333(s)] Converging System... it took 5.03s to simulate the past 10s
-2016-02-14 21:26:55,601 [INFO]  : [40.0444(s)] Converging System... it took 5.07s to simulate the past 10s
-2016-02-14 21:27:01,206 [INFO]  : [50.0556(s)] Converging System... it took 5.61s to simulate the past 10s
-2016-02-14 21:27:07,435 [INFO]  : [60.0667(s)] Converging System... it took 6.23s to simulate the past 10s
-2016-02-14 21:27:13,356 [INFO]  : [70.0778(s)] Converging System... it took 5.92s to simulate the past 10s
-2016-02-14 21:27:19,893 [INFO]  : [80.0889(s)] Converging System... it took 6.54s to simulate the past 10s
-2016-02-14 21:27:25,959 [INFO]  : [90.1(s)] Converging System... it took 6.07s to simulate the past 10s
-2016-02-14 21:27:33,317 [INFO]  : [100.111(s)] Converging System... it took 7.36s to simulate the past 10s
-2016-02-14 21:27:39,851 [INFO]  : [110.122(s)] Converging System... it took 6.53s to simulate the past 10s
-2016-02-14 21:27:46,301 [INFO]  : [120.133(s)] Converging System... it took 6.45s to simulate the past 10s
-2016-02-14 21:27:51,430 [INFO]  : [130.144(s)] Converging System... it took 5.13s to simulate the past 10s
-2016-02-14 21:27:56,777 [INFO]  : [140.156(s)] Converging System... it took 5.35s to simulate the past 10s
-2016-02-14 21:28:02,442 [INFO]  : [150.167(s)] Converging System... it took 5.66s to simulate the past 10s
-2016-02-14 21:28:08,363 [INFO]  : [160.178(s)] Converging System... it took 5.92s to simulate the past 10s
-2016-02-14 21:28:13,306 [INFO]  : [170.189(s)] Converging System... it took 4.94s to simulate the past 10s
-2016-02-14 21:28:18,933 [INFO]  : [180.2(s)] Converging System... it took 5.63s to simulate the past 10s
-2016-02-14 21:28:20,176 [INFO]  : [182.278(s)] Convergence took 105s to simulate 182s to get engine to a steady state
-2016-02-14 21:28:20,177 [INFO]  : [182.278(s)] Converging feedback to a steady state
-2016-02-14 21:28:25,667 [INFO]  : [192.289(s)] Converging System... it took 5.49s to simulate the past 10s
-2016-02-14 21:28:32,270 [INFO]  : [202.3(s)] Converging System... it took 6.6s to simulate the past 10s
-2016-02-14 21:28:32,270 [INFO]  : [202.3(s)] Convergence took 12.1s to simulate 202s to get engine to a steady state
-2016-02-14 21:28:32,270 [INFO]  : [0(s)] Executing Scenario
-2016-02-14 21:28:47,882 [INFO]  : [30.0111(s)] [Action] 30.0111(s), Patient Action : Substance Bolus
+2016-02-21 14:44:34,007 [INFO]  : [0(s)] Computed Patient Maximum Heart rate is 177.2(1/min)
+2016-02-21 14:44:34,131 [INFO]  : [0(s)] Converging to a steady state
+2016-02-21 14:44:40,356 [INFO]  : [10.0111(s)] Converging System... it took 6.22s to simulate the past 10s
+2016-02-21 14:44:47,283 [INFO]  : [20.0222(s)] Converging System... it took 6.93s to simulate the past 10s
+2016-02-21 14:44:52,699 [INFO]  : [30.0333(s)] Converging System... it took 5.42s to simulate the past 10s
+2016-02-21 14:44:57,775 [INFO]  : [40.0444(s)] Converging System... it took 5.08s to simulate the past 10s
+2016-02-21 14:45:03,132 [INFO]  : [50.0556(s)] Converging System... it took 5.36s to simulate the past 10s
+2016-02-21 14:45:08,893 [INFO]  : [60.0667(s)] Converging System... it took 5.76s to simulate the past 10s
+2016-02-21 14:45:16,541 [INFO]  : [70.0778(s)] Converging System... it took 7.65s to simulate the past 10s
+2016-02-21 14:45:22,668 [INFO]  : [80.0889(s)] Converging System... it took 6.13s to simulate the past 10s
+2016-02-21 14:45:28,415 [INFO]  : [90.1(s)] Converging System... it took 5.75s to simulate the past 10s
+2016-02-21 14:45:35,914 [INFO]  : [100.111(s)] Converging System... it took 7.5s to simulate the past 10s
+2016-02-21 14:45:41,307 [INFO]  : [110.122(s)] Converging System... it took 5.39s to simulate the past 10s
+2016-02-21 14:45:47,052 [INFO]  : [120.133(s)] Converging System... it took 5.74s to simulate the past 10s
+2016-02-21 14:45:52,613 [INFO]  : [130.144(s)] Converging System... it took 5.56s to simulate the past 10s
+2016-02-21 14:45:57,726 [INFO]  : [140.156(s)] Converging System... it took 5.11s to simulate the past 10s
+2016-02-21 14:46:03,432 [INFO]  : [150.167(s)] Converging System... it took 5.71s to simulate the past 10s
+2016-02-21 14:46:09,773 [INFO]  : [160.178(s)] Converging System... it took 6.34s to simulate the past 10s
+2016-02-21 14:46:15,537 [INFO]  : [170.189(s)] Converging System... it took 5.76s to simulate the past 10s
+2016-02-21 14:46:20,985 [INFO]  : [180.2(s)] Converging System... it took 5.45s to simulate the past 10s
+2016-02-21 14:46:22,161 [INFO]  : [182.278(s)] Convergence took 108s to simulate 182s to get engine to a steady state
+2016-02-21 14:46:22,162 [INFO]  : [182.278(s)] Converging feedback to a steady state
+2016-02-21 14:46:27,921 [INFO]  : [192.289(s)] Converging System... it took 5.76s to simulate the past 10s
+2016-02-21 14:46:33,855 [INFO]  : [202.3(s)] Converging System... it took 5.93s to simulate the past 10s
+2016-02-21 14:46:33,855 [INFO]  : [202.3(s)] Convergence took 11.7s to simulate 202s to get engine to a steady state
+2016-02-21 14:46:33,855 [INFO]  : [0(s)] Executing Scenario
+2016-02-21 14:46:51,173 [INFO]  : [30.0111(s)] [Action] 30.0111(s), Patient Action : Substance Bolus
 	Dose: 100(mL)
 	Concentration: 1000(ug/mL)
 	Substance: Succinylcholine
 	Administration Route: Intravenous
-2016-02-14 21:28:49,855 [INFO]  : [33.4333(s)] [Event] 33.4333(s),  Patient has Bradypnea
-2016-02-14 21:29:03,823 [INFO]  : [60(s)] Current Time is 59.9889s, it took 31.55s to simulate the past 60s
-2016-02-14 21:29:07,110 [INFO]  : [66.5333(s)] [Event] 66.5333(s),  Patient has Hypoxia
-2016-02-14 21:29:38,880 [INFO]  : [120(s)] Current Time is 119.989s, it took 35.054s to simulate the past 60s
-2016-02-14 21:30:14,696 [INFO]  : [180(s)] Current Time is 179.989s, it took 35.813s to simulate the past 60s
-2016-02-14 21:30:51,339 [INFO]  : [240(s)] Current Time is 239.989s, it took 36.641s to simulate the past 60s
-2016-02-14 21:30:56,362 [INFO]  : [248.644(s)] [Event] 248.644(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
-2016-02-14 21:31:27,327 [INFO]  : [300(s)] Current Time is 299.989s, it took 35.985s to simulate the past 60s
-2016-02-14 21:31:33,402 [INFO]  : [310.3(s)] [Event] 310.3(s),  Patient has Tachycardia
-2016-02-14 21:31:45,484 [INFO]  : [330.022(s)] It took 193.201s to run this simulation
+2016-02-21 14:46:53,665 [INFO]  : [33.4333(s)] [Event] 33.4333(s),  Patient has Bradypnea
+2016-02-21 14:47:11,711 [INFO]  : [60(s)] Current Time is 59.9889s, it took 37.854s to simulate the past 60s
+2016-02-21 14:47:15,289 [INFO]  : [66.5333(s)] [Event] 66.5333(s),  Patient has Hypoxia
+2016-02-21 14:47:50,974 [INFO]  : [120(s)] Current Time is 119.989s, it took 39.261s to simulate the past 60s
+2016-02-21 14:48:32,532 [INFO]  : [180(s)] Current Time is 179.989s, it took 41.556s to simulate the past 60s
+2016-02-21 14:49:08,093 [INFO]  : [240(s)] Current Time is 239.989s, it took 35.56s to simulate the past 60s
+2016-02-21 14:49:13,433 [INFO]  : [248.644(s)] [Event] 248.644(s),  Patient has exceeded the Maximum Pulmonary Ventilation Rate, setting value to the Maximum Rate
+2016-02-21 14:49:45,880 [INFO]  : [300(s)] Current Time is 299.989s, it took 37.785s to simulate the past 60s
+2016-02-21 14:49:52,724 [INFO]  : [310.3(s)] [Event] 310.3(s),  Patient has Tachycardia
+2016-02-21 14:50:19,187 [FATAL]  : [353.044(s)] GeneralMath::CalculateOxygenSaturation is not converging. Liver1; Difference = 0Resulting OxygenSat = 0
+2016-02-21 14:50:19,198 [ERROR]  : [353.044(s)] [353.044(s)] GeneralMath::CalculateOxygenSaturation is not converging. Liver1; Difference = 0Resulting OxygenSat = 0 
