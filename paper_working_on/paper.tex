@@ -7,6 +7,7 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{verbatim}
 
+\graphicspath{{cae_simulation_result/}}
 \title{Biogears in Anesthesia Screen Based Simulation}
 
 \author{
@@ -22,7 +23,7 @@
 \maketitle
 
 \begin{abstract}
-The delivery of good medical care concerns patients as well as medical professionals. In terms of medical training, mannequins used to be orthodox way to train and demonstrate medical skills for students. Nowadays, schools and institutions are adopting more and more high-tech involved methodologies such as Simulation-Based medical education, Virtual Reality in order to provide students with immersive and realistic experience of medical training. In Simulation-Based medical education particularly, whether the models of physiology incidents or responses are accurate or not will directly affect the credibility of the simulation. In this paper, we will give insights into the physiology simulation and compare the current physiology engine Biogears. We will evaluation its function by comparing with simulation provided by CAE Muse system. In the end, we will conclude on the performance of Biogears on key points such as authenticity, stability as well as commenting on its limitations.
+The delivery of good medical care concerns patients as well as medical professionals. In terms of medical training, mannequins used to be orthodox way to train and demonstrate medical skills for students. Nowadays, schools and institutions are adopting more and more high-tech involved methodologies such as Simulation-Based medical education, Virtual Reality in order to provide students with immersive and realistic experience of medical training. In Simulation-Based medical education particularly, whether the models of physiology incidents or responses are accurate or not will directly affect the credibility of the simulation. In this paper, we will give insights into the physiology simulation and compare the current physiology engine Biogears and CAE Muse software. We will evaluation Biogears function by comparing with simulation provided by CAE Muse system. In the end, we will conclude on the performance of Biogears on key points such as authenticity, stability as well as commenting on its limitations.
 \end{abstract}
 
 \section{Current physiologic engines and BioGears}
@@ -55,13 +56,13 @@ To run this experiment on Biogears, we tested it using built-in GUI of Biogears 
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{bleeding_out_HeartRate_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/bleeding_out_HeartRate_vs_Time.jpg}}
      \caption{heart rate changes}
      \label{fig:patient bleeding}
      
    \end{minipage}
    \begin {minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{bleeding_out_RespirationRate_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/bleeding_out_RespirationRate_vs_Time.jpg}}
      \caption{respiratory rate changes}
      \label{fig:patient bleeding}
    \end{minipage}
@@ -89,13 +90,13 @@ In Biogears, we set up two patients to stop breathing for 30 and 120 seconds and
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{30_OxygenSaturation_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/30_OxygenSaturation_vs_Time.jpg}}
      \caption{oxygen saturation changes}
      \label{fig:patient stoping breathing}
      
    \end{minipage}
    \begin {minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{120_OxygenSaturation_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/120_OxygenSaturation_vs_Time.jpg}}
      \caption{oxygen saturation changes}
      \label{fig:patient stoping breathing}
    \end{minipage}
@@ -116,13 +117,13 @@ When observing the result graphs, we could see that patient stopped breathing fo
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Succinylcholine_HeartRate_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Succinylcholine_HeartRate_vs_Time.jpg}}
      \caption{Heart Rate changes}
      \label{fig:given 5 mg Succinylcholine}
      
    \end{minipage}
    \begin {minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Succinylcholine_OxygenSaturation_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Succinylcholine_OxygenSaturation_vs_Time.jpg}}
      \caption{Oxygen Saturation changes}
      \label{fig:given 5 mg Succinylcholine}
    \end{minipage}
@@ -130,13 +131,13 @@ When observing the result graphs, we could see that patient stopped breathing fo
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Succinylcholine_ArterialPressure_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Succinylcholine_ArterialPressure_vs_Time.jpg}}
      \caption{Blood Pressure changes}
      \label{fig:given 5 mg Succinylcholine}
      
    \end{minipage}
    \begin {minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Succinylcholine_RespirationRate_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Succinylcholine_RespirationRate_vs_Time.jpg}}
      \caption{Respiration Rate changes}
      \label{fig:given 5 mg Succinylcholine}
    \end{minipage}
@@ -152,13 +153,13 @@ In the experiment, we gave each patient 50 mg Rocuronium and record the response
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Rocuronium_HeartRate_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Rocuronium_HeartRate_vs_Time.jpg}}
      \caption{Heart Rate changes}
      \label{fig:given 50 mg Rocuronium}
      
    \end{minipage}
    \begin {minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Rocuronium_OxygenSaturation_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Rocuronium_OxygenSaturation_vs_Time.jpg}}
      \caption{Oxygen Saturation changes}
      \label{fig:given 50 mg Rocuronium}
    \end{minipage}
@@ -166,13 +167,13 @@ In the experiment, we gave each patient 50 mg Rocuronium and record the response
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Rocuronium_ArterialPressure_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Rocuronium_ArterialPressure_vs_Time.jpg}}
      \caption{Blood Pressure changes}
      \label{fig:given 50 mg Rocuronium}
      
    \end{minipage}
    \begin {minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Rocuronium_RespirationRate_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Rocuronium_RespirationRate_vs_Time.jpg}}
      \caption{Respiration Rate changes}
      \label{fig:given 50 mg Rocuronium}
    \end{minipage}
@@ -186,13 +187,13 @@ In our experiment, We set up the dosage to be 200 mg for Biogears and ran it for
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Propofol_HeartRate_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Propofol_HeartRate_vs_Time.jpg}}
      \caption{Heart Rate changes}
      \label{fig:given 200 mg Propofol}
      
    \end{minipage}
    \begin {minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Propofol_OxygenSaturation_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Propofol_OxygenSaturation_vs_Time.jpg}}
      \caption{Oxygen Saturation changes}
      \label{fig:given 200 mg Propofol}
    \end{minipage}
@@ -200,16 +201,22 @@ In our experiment, We set up the dosage to be 200 mg for Biogears and ran it for
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Propofol_ArterialPressure_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Propofol_ArterialPressure_vs_Time.jpg}}
      \caption{Blood Pressure changes}
      \label{fig:given 200 mg Propofol}
      
    \end{minipage}
    \begin {minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=5cm]{Propofol_RespirationRate_vs_Time.jpg}}
+     \frame{\includegraphics[width=5cm]{biogears_simulation_result/Propofol_RespirationRate_vs_Time.jpg}}
      \caption{Respiration Rate changes}
      \label{fig:given 200 mg Propofol}
    \end{minipage}
+\end{figure}
+
+\begin{figure}[p]
+    \includegraphics[width=1\textwidth]{cae_propofol_200mg.png}
+    \caption{Propofol vital signs}
+    \label{fig:awesome_image}
 \end{figure}
 
 \subsubsection{Morphine 40 mg Simulation}
