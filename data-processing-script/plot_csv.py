@@ -63,8 +63,6 @@ def plot_graph(time_stamp, HR, SBP, DBP, RR, SpO2):
         plot.append(RR)
         plot.append(SpO2)
 
-
-
         nums = np.linspace(0,1,5) - 0.01
         time_stamp = convert_to_float(time_stamp)
 
