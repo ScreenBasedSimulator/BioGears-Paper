@@ -7,6 +7,10 @@ It's a place to store papers and materials about the paper for biogears
   - Link: [papers/analysis-of-the-total-surgical-cardiac-denervation-by-computer-simulation.pdf](papers/analysis-of-the-total-surgical-cardiac-denervation-by-computer-simulation.pdf)
   - Comment:
     - Xiao Han: It is a paper about simulating urinary system, we don't know how to simulate renal nerve sympathetic activity, like which drug triggers that activity.
+- Effect of rocuronium compared with succinylcholine on intraocular pressure during rapid sequence induction of anaesthesia
+  - Link: [papers/BrJAnaesth-1999-Chiu-757-60.pdf](papers/BrJAnaesth-1999-Chiu-757-60.pdf)
+  - Comment:
+    - Guan Wang: The paper provided some data about the actual vital signs data for patient injected with drugs, it is likely a golden standard for simulation results.
 - Circulation: Overall Regulation
   - Link: [papers/circulation-overall-regulation.pdf](papers/circulation-overall-regulation.pdf)
   - Comment:
