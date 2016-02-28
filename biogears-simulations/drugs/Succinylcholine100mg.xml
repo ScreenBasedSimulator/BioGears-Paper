@@ -103,6 +103,6 @@
         <Dose value="100" unit="mL"/>
     </Action>
 	<Action xsi:type="AdvanceTimeData">
-        <Time value="300" unit="s"/>
+        <Time value="900" unit="s"/>
     </Action>
 </Scenario>
